@@ -1,4 +1,4 @@
-Toolbox v0.51
+Toolbox v0.52
 -------------
 				(c) 2002 Jason Leane <alphamethyl@mac.com>
 
@@ -12,6 +12,7 @@ To install, execute the following commands (preferably as root):
 
 	perl Makefile.PL
 	make
+	make test
 	make install
 	
 That should be it.

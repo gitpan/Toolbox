@@ -18,7 +18,7 @@ use Exporter;
 
 $BLOCKSIZE 	= 	4096;
 
-$VERSION	=	"0.51";
+$VERSION	=	"0.52";
 
 BEGIN {
 	srand;
@@ -208,11 +208,13 @@ C<Toolbox::CryptOTP::BLOCKSIZE>.  The default is 4096 (bytes).
 
 All functions are exported.
 
-	use Toolbox::Simple qw(time_english md5_file);
+	use Toolbox::CryptOTP;
 
 =head1 BUGS
 
 None that i know about.  If you want to see bugs, go have a look at DES...
+
+Wel, of course, using it for actual crypto is a bug in itself.
 
 =head1 TO DO
 

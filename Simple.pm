@@ -13,7 +13,7 @@ BEGIN {
 
 package Toolbox::Simple;
 
-$VERSION = "0.51";
+$VERSION = "0.52";
 
 use Exporter;
 use Socket;
